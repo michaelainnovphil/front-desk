@@ -5,7 +5,8 @@ import "./globals.css";
 const App = () => {
 
   return (
-    <div className="h-100% bg-linear-to-d from-white-500 to-white-500">
+    
+    <div className="bg-[url(/bg.jpg)] ...">
       <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           className="logo-blue"
@@ -57,11 +58,17 @@ const App = () => {
             Staff Daily Log
           </a>
 
-        </div>
+
+
+          
+        <div>
+    </div> 
+    </div> 
+
+    </div>
 
 
 
-      </div>
       </div>
 
   );
