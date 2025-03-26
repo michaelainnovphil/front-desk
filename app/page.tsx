@@ -8,8 +8,8 @@ const App = () => {
     <div className="h-100% bg-linear-to-r from-cyan-500 to-blue-500">
       <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
-          className="logo-white"
-          src="/logo-white.png"
+          className="logo-blue"
+          src="/logo-blue.png"
           alt="innovphil-logo"
           width={170}
           height={28}
