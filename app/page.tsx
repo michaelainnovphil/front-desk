@@ -5,7 +5,7 @@ import "./globals.css";
 const App = () => {
 
   return (
-    <div className="h-100% bg-linear-to-r from-cyan-500 to-blue-500">
+    <div className="h-100% bg-linear-to-d from-white-500 to-white-500">
       <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           className="logo-blue"
