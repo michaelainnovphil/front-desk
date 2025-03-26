@@ -23,7 +23,7 @@ const App = () => {
 
           <a
             className="box" 
-            href="https://forms.office.com/r/dav59wPH79"
+            href="https://forms.office.com/r/wnwKx2Kges"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -32,7 +32,7 @@ const App = () => {
 
           <a
             className="box" 
-            href="https://forms.office.com/r/dav59wPH79"
+            href="https://forms.office.com/r/qs7UbLqZfF"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -41,12 +41,18 @@ const App = () => {
 
           <a
             className="box"
+            href="https://forms.office.com/r/aMbFY9Aqi8"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Inquiries
           </a>
 
           <a
             className="box"
+            href="https://forms.office.com/r/BLm5BtqfHc"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             Staff Daily Log
           </a>
