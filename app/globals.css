@@ -44,3 +44,8 @@
   position: relative;
   padding: 30px;
 }
+
+.login {
+  position: right;
+  padding: 70px;
+}
