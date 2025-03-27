@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
+
+
 .app-container {
   position: relative;
-  height: 80vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,6 +27,7 @@
   border-radius: 10px;
   cursor: pointer;
   transition: transform 0.3s;
+  width: 200;
 }
 
 .box:hover {
