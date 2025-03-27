@@ -6,7 +6,7 @@ const App = () => {
 
   return (
     
-    <div className="bg-[url(/bg.jpg)] height: 100%">
+    <div className="bg-[url(/bg.jpg)] height={100%}">
       <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           className="logo-blue"
@@ -23,20 +23,21 @@ const App = () => {
 
           <a
             className="box" 
-            href="https://forms.office.com/r/Cyairc139C"
+            href="https://forms.office.com/r/wnwKx2Kges"
             target="_blank"
             rel="noopener noreferrer"
           >
-            IELTS
+           
+            <p className="text-xl ...">IELTS</p>
           </a>
 
           <a
             className="box" 
-            href="https://forms.office.com/r/5UEUtj899t"
+            href="https://forms.office.com/r/qs7UbLqZfF"
             target="_blank"
             rel="noopener noreferrer"
           >
-            AHA Training
+            <p className="text-xl ...">AHA Training</p>
           </a>
 
           <a
@@ -45,7 +46,7 @@ const App = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Inquiries
+            <p className="text-xl ...">Inquiries</p>
           </a>
 
           <a
@@ -54,7 +55,8 @@ const App = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Staff Daily Log
+            <p className="text-xl ...">Staff Daily Log</p>
+           
           </a>
 
         </div>
