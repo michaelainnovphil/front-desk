@@ -6,20 +6,19 @@ const App = () => {
 
   return (
     
-    <div className="bg-[url(/bg.jpg)] ...">
+    <div className="bg-[url(/bg.jpg)] height: 100%">
       <div className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
         <Image
           className="logo-blue"
           src="/logo-blue.png"
           alt="innovphil-logo"
-          width={170}
-          height={28}
+          width={180}
+          height={38}
           priority
         />
       </div>
-    <div className="app-container">
-      
-        
+
+      <div className="app-container">
         <div className="boxes-container">
 
           <a
@@ -58,18 +57,17 @@ const App = () => {
             Staff Daily Log
           </a>
 
-
-
-          
-        <div>
-    </div> 
-    </div> 
-
-    </div>
-
-
+        </div>
+        
+        <div className="login">
+        <iframe width="450px" height="480px" src="https://forms.office.com/r/ec28UjDzvf?embed=true" frameBorder="0"> </iframe>
+        </div>
 
       </div>
+          
+    </div> 
+
+ 
 
   );
 };
