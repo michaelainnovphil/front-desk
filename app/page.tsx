@@ -23,7 +23,7 @@ const App = () => {
 
           <a
             className="box" 
-            href="https://forms.office.com/r/aMbFY9Aqi8"
+            href="https://forms.office.com/r/Cyairc139C"
             target="_blank"
             rel="noopener noreferrer"
           >
