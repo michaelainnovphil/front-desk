@@ -28,7 +28,7 @@ const App = () => {
             rel="noopener noreferrer"
           >
            
-            <p className="text-xl ...">IELTS</p>
+            <p className="text-2xl ...">IELTS</p>
           </a>
 
           <a
@@ -37,7 +37,7 @@ const App = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className="text-xl ...">AHA Training</p>
+            <p className="text-2xl ...">AHA Training</p>
           </a>
 
           <a
@@ -46,7 +46,7 @@ const App = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className="text-xl ...">Inquiries</p>
+            <p className="text-2xl ...">Inquiries</p>
           </a>
 
           <a
@@ -55,7 +55,7 @@ const App = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className="text-xl ...">Staff Daily Log</p>
+            <p className="text-2xl ...">Staff Daily Log</p>
            
           </a>
 
