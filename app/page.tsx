@@ -44,7 +44,7 @@ const App = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className="text-xl ...">Visitor's Login</p>
+            <p className="text-xl ...">Visitors Login</p>
            
           </a>
         </div>
