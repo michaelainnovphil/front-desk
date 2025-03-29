@@ -29,14 +29,15 @@
   background-color: #001a70;
   color: white;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   cursor: pointer;
   transition: transform 0.3s;
   width: 200;
+  box-shadow: 100%, black;
 }
 
 .box:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 .box:active {
@@ -56,4 +57,5 @@
 .login {
   position: right;
   padding: 70px;
+  
 }
