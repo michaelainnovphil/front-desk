@@ -40,19 +40,16 @@ const App = () => {
 
           <a
             className="box"
-            href="https://forms.office.com/r/BLm5BtqfHc"
+            href="https://forms.office.com/r/ec28UjDzvf"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className="text-xl ...">Staff Daily Log</p>
+            <p className="text-xl ...">Visitor's Login</p>
            
           </a>
         </div>
         
-        
-        <div className="login">
-        <iframe width="450px" height="480px" src="https://forms.office.com/r/ec28UjDzvf?embed=true" frameBorder="10"> </iframe>
-        </div>
+  
 
       </div>
       <div className="containerbot">
