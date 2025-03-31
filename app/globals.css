@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .bg-container {
-  position:relative;
+  position:fixed;
   background-color: transparent ;
   object-fit: cover; 
   inset: 0; 
