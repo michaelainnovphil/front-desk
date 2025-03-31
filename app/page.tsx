@@ -4,6 +4,7 @@ import "./globals.css";
 const App = () => {
 
   return (
+    
     <div className="bg-[url(/Frame1.jpg)] bg-cover">
       
 
