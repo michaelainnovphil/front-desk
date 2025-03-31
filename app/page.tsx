@@ -1,12 +1,20 @@
 import React from "react";
 import "./globals.css";
+import Image from 'next/image'
 
 const App = () => {
 
   return (
     
-    <div className="bg-[url(/Frame1.jpg)] bg-cover">
+    <div className="bg-container">
+      <Image
+      src="/Frame.png"
+      width={1919}
+      height={990}
+      alt="background"
+    />
       
+
 
       <div className="app-container">
         <div className="boxes-container">
@@ -46,18 +54,27 @@ const App = () => {
             rel="noopener noreferrer"
           >
             <p className="text-xl ...">Visitors Login</p>
-           
           </a>
-        </div>
-        
-  
 
+          <a
+            className="box"
+            href="https://forms.office.com/r/BLm5BtqfHc"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p className="text-xl ...">Staff Daily Log</p>
+          </a>
       </div>
+     
+      
+        </div>
       <div className="containerbot">
+      
         
+      </div>
       </div>
           
-    </div> 
+
 
  
 
