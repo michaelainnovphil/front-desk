@@ -12,6 +12,7 @@ const App = () => {
       height={990}
       alt="background"
     />
+    
       
       <div className="popup-container">
       <Image
