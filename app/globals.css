@@ -1,55 +1,54 @@
 @import "tailwindcss";
 
+.app-container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .popup-container {
   position:absolute;
-  top: 13%;
-  right: 13%;
   height: 75%; 
   width: 70%; 
   display: flex;
+  background-color: #001a70;
+  border-radius: 50px;
+  align-items: flex-end;
+  overflow: hidden;
+  justify-content: right;
 }
 
-.bg-container {
-  position:relative;
-  background-color: transparent ;
-  object-fit: cover; 
-  height: 100%; 
-  width: 100%; 
-  object-position: center; 
+.spacesataas {
+  position: relative;
+  height: 15%;
+  background-color: #001a70;
+  z-index: 20;
 }
 
-.image-bg {
+.content-container {
   position:absolute;
-  top: 15%;
-  right: 13%;
-  height: 70%; 
-  width: 70%; 
-  display: flex;
+  background-color: #ffffff;
+  height: 100%;
+  width: max-content;
+  object-fit: fill;
+  justify-content: center;
 }
 
-.introtext {
-  position: absolute;
-  top: 30%;
-  left: 29%;
+.text-container {
+  position: relative;
+  justify-content: flex-start;
+  text-align: center;
+  height: 80%;
+  padding: 2%;
 }
 
-.bodytext {
-  position: absolute;
-  top: 40%;
-  left: 21%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 40%;
-}
-.app-container {
-  position: absolute;
-  top: 160;
-  right: 260;
-  height: 80vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.body-text {
+  position: relative;
+  justify-content: flex-start;
+  text-align: center;
+  height: 60%;
 }
 
 .learnmore {
@@ -59,15 +58,21 @@
   width: 40%;
 }
 
-
 .boxes-container {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 15px;
   z-index: 10;
   text-align: center;
+  padding: 6%;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100%;
 }
 
+.emptybox {
+  width: 200;
+  height: 20;
+}
 .box {
   background-color: #001a70;
   color: white;
@@ -86,15 +91,5 @@
 
 .box:active {
   transform: scale(0.9);
-}
-
-.logo-white {
-  position: relative;
-  padding: 30px;
-}
-
-.logo-blue {
-  position: relative;
-  padding: 30px;
 }
 

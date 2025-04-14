@@ -1,54 +1,42 @@
 import React from "react";
 import "./globals.css";
-import Image from 'next/image'
+import Image from "next/image";
 
 const App = () => {
 
   return (
-    <div className="bg-container">
-      <Image
-      src="/Frame1.jpg"
-      width={1919}
-      height={990}
-      alt="background"
-    />
-    
-      
+    <div className="bg-[url(/Frame1.jpg)] bg-cover">
+      <div className="app-container">
       <div className="popup-container">
-      <Image
-      src="/popupbg1.png"
-      width={1919}
-      height={990}
-      alt="popupbackground"
-    />
+      <div className="content-container">
+        <div className="spacesataas"></div>
+
+        <Image
+        src="/pic.jpeg"
+        width={1260}
+        height={1000}
+        alt="popupbackground"
+        />
       </div>
 
-      <div>
-
-      </div>
-
-      <div className="introtext">
-      <p className="text-3xl text-[#001a70] tracking-wide font-semibold">Welcome to INNOVPHIL</p> 
-      </div>
-
-      <div className="bodytext">
+      <div className="text-container">
+      <h2 className="text-3xl text-[#001a70] tracking-wide font-semibold">Welcome to INNOVPHIL</h2>
       <p className="text-l text-[#303030] tracking-wide text-right"><b>Innovphil</b> is a company dedicated to provide specialized services for health care professionals seeking promising opportunities around the world. Compose of a skilled and service-oriented team, we assure a hassle-free, convenient and reliable way of applying for your international licenses.</p> 
-      </div>
-
-      <div className="learnmore">
-        <a
+      <a
             href="https://www.innovphil.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
           
-          <p className="text-xl text-[#0a1f8f] tracking-wide"><u>Learn more here</u></p>
+          <p className="text-xl text-[#0a1f8f] tracking-wide text-right"><u>Learn more here</u></p>
           </a>
       </div>
-      
 
-      <div className="app-container">
+
         <div className="boxes-container">
+          <div className="emptybox">
+
+          </div>
 
           <a
             className="box" 
@@ -96,19 +84,10 @@ const App = () => {
             <p className="text-xl ...">Staff Daily Log</p>
           </a>
       </div>
-     
-      
-        </div>
-      <div className="containerbot">
-      
-        
       </div>
       </div>
-          
-
-
- 
-
+    </div>
+    
   );
 };
 
