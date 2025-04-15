@@ -20,18 +20,26 @@ const App = () => {
       </div>
 
       <div className="text-container">
-      <h2 className="text-3xl text-[#001a70] tracking-wide font-semibold">Welcome to INNOVPHIL</h2>
-      <p className="text-l text-[#303030] tracking-wide text-right"><b>Innovphil</b> is a company dedicated to provide specialized services for health care professionals seeking promising opportunities around the world. Compose of a skilled and service-oriented team, we assure a hassle-free, convenient and reliable way of applying for your international licenses.</p> 
+      <div className="intro-text">
+      <p className="text-3xl text-[#001a70] tracking-wide font-semibold">Welcome to INNOVPHIL</p>
+      </div>
+      <div className="body-text">
+      <p className="text-l text-[#303030] tracking-wide text-right "><b>Innovphil</b> is a company dedicated to provide specialized services for health care professionals
+      seeking promising opportunities around the world. Compose of a skilled and 
+      service-oriented team, we assure a hassle-free, convenient and reliable way 
+      of applying for your international licenses.</p> 
+      </div>
+      <div className="learn-more">
       <a
             href="https://www.innovphil.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
           
-          <p className="text-xl text-[#0a1f8f] tracking-wide text-right"><u>Learn more here</u></p>
+          <p className="text-xl text-[#0a1f8f] tracking-wide text-right "><u>Learn more here</u></p>
           </a>
       </div>
-
+      </div>
 
         <div className="boxes-container">
           <div className="emptybox">

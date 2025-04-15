@@ -38,24 +38,27 @@
 
 .text-container {
   position: relative;
-  justify-content: flex-start;
   text-align: center;
   height: 80%;
   padding: 2%;
 }
 
-.body-text {
+.intro-text {
   position: relative;
-  justify-content: flex-start;
   text-align: center;
-  height: 60%;
+  margin-bottom: 20px;
 }
 
-.learnmore {
-  position: absolute;
-  bottom: 30%;
-  right: 10%;
-  width: 40%;
+.body-text {
+  position: relative;
+  text-align: center;
+  height: 60%;
+  width: 95%;
+}
+
+.learn-more {
+  position: relative;
+  
 }
 
 .boxes-container {
@@ -76,12 +79,12 @@
 .box {
   background-color: #001a70;
   color: white;
-  padding: 20px;
+  padding: 10px;
   border-radius: 15px;
   cursor: pointer;
   transition: transform 0.3s;
   width: 200;
-  height: 70;
+  height: 50;
   box-shadow: 100%, black;
 }
 
