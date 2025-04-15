@@ -30,11 +30,11 @@ const App = () => {
       of applying for your international licenses.</p> 
       </div>
       <div className="learn-more">
-      <a
-            href="https://www.innovphil.com/about"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <a
+          href="https://www.innovphil.com/about"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           
           <p className="text-xl text-[#0a1f8f] tracking-wide text-right "><u>Learn more here</u></p>
           </a>
