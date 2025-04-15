@@ -31,7 +31,7 @@ const App = () => {
       </div>
       <div className="learn-more">
       <a
-            href="https://www.innovphil.com/"
+            href="https://www.innovphil.com/about"
             target="_blank"
             rel="noopener noreferrer"
           >
