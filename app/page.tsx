@@ -89,7 +89,7 @@ const App = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p className="text-xl ...">Staff Daily Log</p>
+            <p className="text-xl ...">Staff Log</p>
           </a>
       </div>
       </div>
