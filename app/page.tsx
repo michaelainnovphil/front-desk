@@ -13,8 +13,8 @@ const App = () => {
 
         <Image
         src="/pic.jpeg"
-        width={1260}
-        height={1000}
+        width={2000}
+        height={3000}
         alt="popupbackground"
         />
       </div>
